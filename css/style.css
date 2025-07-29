@@ -1,0 +1,848 @@
+/*chakra petch*/
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*bangers*/
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+/*         font-family: -apple-system, BlinkMacSystemFont, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;*/
+  
+	/* Chakra petch */
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+	/* Banger */
+/*  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+*/
+}
+
+body{
+		margin: 0;
+	padding: 0;
+
+	background-color: #000000;
+	overflow-x: hidden;
+}
+
+/*====================================Bangers=========================================*/
+.bangers-regular {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*=============================================================================*/
+
+/*================================Chakra petch================================*/
+.chakra-petch-light {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.chakra-petch-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chakra-petch-medium {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.chakra-petch-semibold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.chakra-petch-bold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.chakra-petch-light-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.chakra-petch-regular-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.chakra-petch-medium-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.chakra-petch-semibold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.chakra-petch-bold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.parent-nav{
+
+	position: fixed;
+	background: rgba(0, 0, 0, 0.1); /* Transparent background */
+	width: 100%;
+	height: 70px;
+	  z-index: 1000;
+	  margin: 34px 69px 23px 23px ;
+}
+
+
+
+.ham-button{
+	position: absolute;
+	top: 5px;
+	right: 40px;
+}
+/*========================================================*/
+
+
+.logo{
+
+   font-family: -apple-system, BlinkMacSystemFont, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+	position: absolute;
+	color: white;
+	display: inline;
+	top: -10px;
+	left: 20px;
+	text-decoration: none !important;
+
+}
+
+
+
+.sub-logo{
+	display: inline;
+		font-size: 11.15px;
+}
+
+
+
+.sub-logo2{
+		display: inline;
+
+		font-size: 11.15px;
+		color: red;
+}
+
+
+
+.wmv{
+
+    font-family: -apple-system, BlinkMacSystemFont, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-size: 11.15px;
+	position: absolute;
+	top: 10px;
+	right: 100px;
+}
+
+.wmv2{
+
+  position: absolute;
+  top: -4px;
+  left: -15px;
+}
+
+
+/*.conTop{
+	position: absolute;
+	 top: 63px;
+}
+*/
+
+
+
+/*image oval shape*/
+
+		.image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .oval-image {
+            width: 100%; /* Make it responsive */
+            max-width: 400px; /* Limit maximum size */
+            height: auto;
+            border: 0.5px solid white;
+            aspect-ratio: 3 / 2; /* Maintain aspect ratio */
+            border-radius: 50%; /* Oval shape */
+            object-fit: cover; /* Ensure the image fills the oval */
+        }
+
+
+/*oval column*/
+
+.custom-oval {
+  border: 0.5px solid white; /* Border thickness */
+  border-radius: 45%;        /* Makes it an oval */
+  height: auto;             /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;          /* Ensures content stays within the oval */
+}
+
+
+
+a,p,div,li,ul{
+	color: white;
+
+}
+
+
+/*for music, videos, NO.01*/
+.greycolor{
+	color: #858585;
+	font-size: 11.15px;
+	margin-bottom: -1px !important;
+}
+
+
+
+
+/*Text animation*/
+
+/* Default text styling */
+.text-hover {
+  display: inline-block;
+  font-size: 16px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Increase width on hover */
+.text-hover:hover {
+	color: red;
+  transform: scaleX(1.5); /* Adjust the scale factor as needed */
+}
+
+
+
+.genres{
+	position: absolute;
+	font-size: 11.15px;
+	top: 0px;
+	right: 20px;
+}
+
+
+
+/*rect to circular transition of images*/
+.genreImg {
+    max-width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    border: 2px solid transparent;
+    border-radius: 0;
+    transition: border-radius 0.5s ease, border 0.5s ease;
+    object-fit: cover;
+    aspect-ratio: 1/3;
+}
+
+.genreImg:hover {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+/* Scrollbar styles for Webkit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 12px;  
+    height: 12px; 
+}
+
+
+/*Red scrollbar*/
+::-webkit-scrollbar-thumb {
+    background-color: #f80000;     
+
+	/*  Border radius  */
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pill-image {
+            width: 100%;
+            aspect-ratio: 3 / 1; /* Ensures a horizontal pill shape */
+            border-radius: 50%; /* Makes it pill-shaped */
+            object-fit: cover; /* Ensures image covers the space */
+            display: block;
+            margin: auto;
+        }
+
+
+/*========================RESPONSIVE NAVBAR==========================*/
+
+.cont{
+	background-color: grey;
+	height: auto;
+}
+
+
+.closebtn2{
+	position: fixed;
+	z-index: 1002;
+	top: -100%;
+	left: 50%;
+	transform: translate(-50%,-50%);  /*	perfectly aligns element in the center  */
+	transition:all 1s ease-in-out;
+
+}
+
+.closebtn2 img{
+
+	width: 97px;
+	min-width: 27px;
+
+	height: 97px;
+	min-height: 27px;
+}
+
+
+.column1, .column2 {
+	position: fixed;
+	top: 0;
+	width: 50%;
+	height: 100vh ;
+	transition:all 1s ease-in-out;
+	z-index: 1001;
+}
+
+.column1{
+	background-color: black;
+	left: -100%;
+}
+
+.column2{
+	background-color: black;
+	right: -100%;
+}
+
+
+.shiftc1{
+	left: 0;
+}
+
+.shiftc2{
+	right: 0;
+}
+
+.show-hide{
+	top: 50%;
+}
+
+.logOut{
+	position: absolute;
+	top: 0px;
+	left: 120px;
+}
+
+/*==========================DASHBOARD==============================*/
+ .sidebar ul a:hover{
+/*	color: #000000;
+	background-color: white;
+*/}
+
+
+a{
+ color: white;
+}
+
+table tr th, td{
+	color: white;
+}
+
+table tr td a{
+	color:blue;
+}
+
+
+.disapprov{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows:repeat(2, 1fr); 
+	grid-gap: 12px;
+}
+
+.disapprov-2{
+display: grid;
+grid-gap: 12px;
+}
+
+.disapprov-3{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 12px;
+}
+
+
+.apd:hover{
+    color: #007bff;
+	/*	margin-left: 20px;*/
+	 	 border-left: 4px solid white; /* Active/Hover state */
+}
+
+
+.apd2dba, .apd2ah, .apd2ti, .apd2ml,  .apd2ml2 , .apd2sml, .apd2ln, .apd2lo, .apd2cs, .apd2blgs, .apd2cu, .apd2git, .apd2brnds, .apd2upcg, .apd2link,  .apd2mit, .apd2am, .apd2em, .apd2mn, .apd2blgall, .apd2bts, .apd2evnts,  .apd2evnts2, .apd2pp, .apd2tnc, .apd2typing, .apd2pintro, .apd2pabout, .apd2pceleb, .apd2pperformedat, .apd2pliveshw, .apd2ptechnical, .apd2phandles, .apd2dbt, .apd2pr {
+ 	 border-left: 4px solid #007bff; /* Active/Hover state */
+    color: #007bff;
+
+/*	color: #000000 ;
+	background-color: white ;	
+*/
+}
+
+
+.dapd2hm a p, .dapd2au a p, .dapd2blgs a p, .dapd2svcs a p,  .dapd2mv a p, .dapd2eb a p, .dapd2cu a p, .dapd2dbrd a p , .dapd2ah a p , .dapd2ab a p , .dapd2dbt a p, .dapd2tnc a p , .dapd2pp a p {
+ 	 border-left: 4px solid #f80000; 
+    color: #f80000;	
+}
+
+
+/*pagination*/
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #007bff !important;
+    border-color: #007bff;
+}
+
+.blog-aside li a, .sidebar ul a, .sidebar ul p {
+    transition: all 300ms ease;
+}
+
+ .sidebar ul a:hover{
+	margin-left: 20px;
+ 	 border-left: 4px solid white; /* Active/Hover state */
+    color: #007bff;
+
+ }
+
+
+ .sidebar ul p:hover{
+	margin-left: 20px;
+ 	 border-left: 4px solid white; /* Active/Hover state */
+    color: #007bff;
+
+ }
+
+
+.blog-aside li a:hover{
+	margin-left: 40px;
+ 	 border-left: 4px solid white; /* Active/Hover state */
+    color: #007bff;
+}
+
+
+.sidebar{
+	position: fixed;
+	width: 20%;
+	left: 0;
+	height: 100vh;
+	z-index: 998;
+	transition:all 1s ease-in-out;
+	overflow: scroll;
+
+}	
+
+.main{
+	position: absolute;
+	width: 80%;
+	right: 0;
+	height: 100vh;
+}
+
+@media screen and (max-width:810px){
+
+	.sidebar{
+		left: -100%;
+		width: 186px;
+	}
+
+	.main{
+		width: 100%;
+	}
+
+
+}
+
+
+
+@media screen and (min-width:810px){
+
+	.hb{
+		display: none;
+	}
+
+}
+
+
+.shifthb{
+	left: 0;
+	z-index: 998;
+}
+
+
+        .hero-overlay{
+        	position: relative;
+        	width: 100%;
+        	height: 300px;
+        	display: flex;
+        	justify-content: center;
+        	text-align: center;
+        }
+
+        .hero-overlay-2{
+        	position: absolute;
+        	top: 50%;
+        	left: 50%;
+        	transform: translate(-50%,-50%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+	.hb{
+		position: absolute;
+		top: 30px;
+		right: 10px;
+		z-index: 998;
+	}
+
+
+.preloader{
+	position: fixed;
+	background-color: black;
+	top: 0;
+	left: 0;
+	z-index: 1003;
+	width: 100%;
+}
+
+.preloader-gif{
+	object-fit: cover;
+	width: 100%;
+	height: 100vh;
+	  animation: zoomFade 3s infinite ease-in-out;
+
+}
+
+
+
+@keyframes zoomFade {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+
+}
+
+
+.toflw{
+	width: 224px;
+	height: 75px;
+    overflow: hidden; 
+
+    /* Hide overflow content */
+    text-overflow: ellipsis; 
+
+    /* Show "..." if text overflows (for single-line text) */
+/*    white-space: nowrap;*/
+
+     /* Prevent text from wrapping (optional) */
+    
+    /* For multi-line content */
+/*    word-wrap: break-word; */
+
+    /* Break words to fit inside the div */
+/*    overflow-wrap: break-word;*/
+
+/*    white-space: normal; */
+    /* Allow text to wrap */
+}
+
+
+.social-links a { 
+
+margin: 0 10px; 
+font-size: 30px; 
+color: #ffffff; 
+}
+
+
+.intro:hover,
+.about:hover,
+.performedAt:hover,
+.liveShows:hover,
+.videoSongs:hover,
+.celebrity:hover,
+.technical:hover,
+.digital:hover,
+.social:hover,
+.tt:hover,
+a.logo:hover,
+.brandEDT:hover,
+.member:hover,
+.events:hover,
+.bts:hover,
+.social-links:hover,
+.blgs:hover,
+.mv:hover,
+.cua:hover,
+.pp:hover,
+.tnc:hover
+{
+	border: 1px solid white;
+}
+
+
+.intro-edit, 
+.about-edit, 
+.performed-edit, 
+.live-edit, 
+.video-edit, 
+.celebrity-edit, 
+.technical-edit, 
+.digital-edit, 
+.social-edit,
+.tt-edit,
+.brandEDT-edit,
+.member-edit,
+.events-edit,
+.bts-edit,
+.social-edit,
+.blgs-edit,
+.mv-edit,
+.cua-edit,
+.pp-edit,
+.tnc-edit
+{
+	 position: absolute; 
+/*	 display: none;*/
+	 top: -2px; 
+	 right: 0px;	
+}
+
+
+
+.intro-delete, 
+.about-delete, 
+.performed-delete, 
+.live-delete, 
+.video-delete, 
+.celebrity-delete, 
+.technical-delete, 
+.digital-delete, 
+.social-delete,
+.tt-delete,
+.brandEDT-delete,
+.member-delete,
+.events-delete,
+.bts-delete,
+.social-delete,
+.blgs-delete,
+.mv-delete,
+.cua-delete,
+.pp-delete,
+.tnc-delete
+{
+	 position: absolute; 
+/*	 display: inline;*/
+	 top: -3px; 
+	 right: 20px;	
+}
+
+.idx1-edit {
+   position: absolute; 
+/*   display: none;*/
+   top: 42.3%; 
+   right: 1px;  
+}
+
+
+.logoP-edit{
+	 position: absolute; 
+/*	 display: none;*/
+	 top: -13px; 
+	 left: 21px;	
+}
+
+.intro:hover .intro-edit,
+.about:hover .about-edit,
+.performedAt:hover .performed-edit,
+.liveShows:hover .live-edit,
+.videoSongs:hover .video-edit,
+.celebrity:hover .celebrity-edit,
+.technical:hover .technical-edit,
+.digital:hover .digital-edit,
+.intro:hover .all-edit,
+.tt:hover .tt-edit,
+.brandeEDT:hover .brandeEDT-edit,
+.member:hover .member-edit,
+.events:hover .events-edit,
+.bts:hover .bts-edit,
+.social-links:hover .social-links-edit,
+.blgs:hover .blgs-edit,
+.mv:hover .mv-edit,
+.cua:hover .cua-edit,
+.mv:hover .mv-edit,
+.cua:hover .cua-edit
+{
+		display: block;
+}
+
+
+.parent-nav:hover .logoP-edit{
+	display: inline-block;
+}
+
+/*=============================Accordion================================*/
+  .accordion {
+      width: 100%;
+      max-width: 500px;
+      margin: 20px auto;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .accordion-item {
+      border-bottom: 1px solid #ccc;
+    }
+
+    .accordion-header {
+      background: #f5f5f5;
+      padding: 15px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .accordion-header:hover {
+      background: #eaeaea;
+    }
+
+    .accordion-arrow {
+      transition: transform 0.3s ease;
+    }
+
+    .accordion-header.active .accordion-arrow {
+      transform: rotate(90deg); /* Arrow turns down */
+    }
+
+    .accordion-content {
+      display: none;
+      padding: 15px;
+      background: #fff;
+    }
+
+    .accordion-content.open {
+      display: block;
+    }
+
+    /*=============================Accordion================================*/
+
+    /*=============================Book now button================================*/
+
+/* Main book now button */
+#book-now {
+  position: fixed;
+  bottom: 40px;
+  right: 35px;
+  z-index: 9999;
+  background: linear-gradient(135deg, #ff0057, #ff7e00);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(255, 0, 87, 0.6);
+  animation: twinkle 1s infinite alternate;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@keyframes twinkle {
+  from { box-shadow: 0 0 0px rgba(255, 0, 87, 0.6); }
+  to { box-shadow: 0 0 25px rgba(255, 126, 0, 0.8); }
+}
+
+#options-container {
+  position: fixed;
+  bottom: 105px;
+  right: 20px;
+  z-index: 9998;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option-button {
+	text-decoration: none;
+  background: linear-gradient(135deg, #1a1a1a, #333);
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}
+
+.option-button i {
+  font-size: 16px;
+}
+
+.option-button:hover {
+  background: linear-gradient(135deg, #ff0057, #ff7e00);
+  transform: scale(1.05);
+}
+
+.show-options .option-button {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+    /*=============================Book now button================================*/
